@@ -1896,7 +1896,7 @@ App.prototype.isDriveDomain = function()
 {
 	return urlParams['drive'] != '0' &&
 		(window.location.hostname == 'test.draw.io' ||
-		window.location.hostname == 'www.draw.io' ||
+		window.location.hostname == 'denticle.github.io' ||
 		window.location.hostname == 'drive.draw.io' ||
 		window.location.hostname == 'app.diagrams.net' ||
 		window.location.hostname == 'jgraph.github.io');
